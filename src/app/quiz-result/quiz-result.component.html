@@ -1,0 +1,25 @@
+<app-quiz-header></app-quiz-header>
+<div class="container">
+    <mat-card *ngFor="let article of dataFromScore; let i = index" class="card">
+        <mat-card-header>
+            <mat-card-title>{{i+1}}) {{article.questionDesc}}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content class="options">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-6" *ngFor="let option of article.options">
+                        <ng-template [ngIf]="option.optionId===article.answer">
+                            <div class="p-3 border correct">{{option.optionId}}: {{option.optionDesc}}<i class="fa fa-check icnPosition"></i></div>
+                        </ng-template>
+                        <ng-template [ngIf]="option.optionId===article.selectOption && option.optionId!==article.answer">
+                            <div class="p-3 border wrong">{{option.optionId}}: {{option.optionDesc}}<i class="fa fa-remove icnPosition"></i></div>
+                        </ng-template>
+                        <ng-template [ngIf]="option.optionId!==article.selectOption && option.optionId!==article.answer">
+                            <div class="p-3 border bg-light">{{option.optionId}}: {{option.optionDesc}}</div>
+                        </ng-template>
+                    </div>
+                </div>
+            </div>
+        </mat-card-content>
+    </mat-card>
+</div>

@@ -1,0 +1,9 @@
+<app-quiz-header></app-quiz-header>
+<div [ngClass]="'scoreContainer'">
+    <h1>Your Score is {{score}} of {{TotalQuestions}}</h1>
+    <div [ngClass]="'icon'">
+        <img src={{icon}} [ngClass]="'imageIcon'">
+    </div>
+    <button class='btn btn-primary' (click)="fnNavigateToResult()">View Detailed Results</button>
+</div>
+<router-outlet></router-outlet>

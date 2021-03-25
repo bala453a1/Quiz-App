@@ -1,0 +1,224 @@
+{
+    "questions": [
+      {
+        "questionId": 123,
+        "questionDesc": "For which of the following disciplines is Nobel Prize awarded?",
+        "options": [
+          {
+            "optionId": "A",
+            "optionDesc": "Physics and Chemistry"
+          },
+          {
+            "optionId": "B",
+            "optionDesc": "Physiology or Medicine"
+          },
+          {
+            "optionId": "C",
+            "optionDesc": "Literature, Peace and Economics"
+          },
+          {
+            "optionId": "D",
+            "optionDesc": "All of the above"
+          }
+        ]
+      },
+      {
+        "questionId": 124,
+        "questionDesc": "Eritrea, which became the 182nd member of the UN in 1993, is in the continent of",
+        "options": [
+          {
+            "optionId": "A",
+            "optionDesc": "Asia"
+          },
+          {
+            "optionId": "B",
+            "optionDesc": "Africa"
+          },
+          {
+            "optionId": "C",
+            "optionDesc": "Europe"
+          },
+          {
+            "optionId": "D",
+            "optionDesc": "Australia"
+          }
+        ]
+      },
+      {
+        "questionId": 125,
+        "questionDesc": "The world’s first hybrid electric tram powered by hydrogen fuel cells has started in which country?",
+        "options": [
+          {
+            "optionId": "A",
+            "optionDesc": "Germany"
+          },
+          {
+            "optionId": "B",
+            "optionDesc": "China"
+          },
+          {
+            "optionId": "C",
+            "optionDesc": "France"
+          },
+          {
+            "optionId": "D",
+            "optionDesc": "Australia"
+          }
+        ]
+      },
+      {
+        "questionId": 126,
+        "questionDesc": "Brass gets discoloured in air because of the presence of which of the following gases in air?",
+        "options": [
+          {
+            "optionId": "A",
+            "optionDesc": "Oxygen"
+          },
+          {
+            "optionId": "B",
+            "optionDesc": "Hydrogen sulphide"
+          },
+          {
+            "optionId": "C",
+            "optionDesc": "Carbon dioxide"
+          },
+          {
+            "optionId": "D",
+            "optionDesc": "Nitrogen"
+          }
+        ]
+      },
+      {
+        "questionId": 127,
+        "questionDesc": "Compact discs, (according to the original CD specifications) hold how many minutes of music?",
+        "options": [
+          {
+            "optionId": "A",
+            "optionDesc": "74 mins"
+          },
+          {
+            "optionId": "B",
+            "optionDesc": "56 mins"
+          },
+          {
+            "optionId": "C",
+            "optionDesc": "60 mins"
+          },
+          {
+            "optionId": "D",
+            "optionDesc": "90 mins"
+          }
+        ]
+      },
+      {
+        "questionId": 128,
+        "questionDesc": "The purpose of choke in tube light is ?",
+        "options": [
+          {
+            "optionId": "A",
+            "optionDesc": "To decrease the current"
+          },
+          {
+            "optionId": "B",
+            "optionDesc": "To increase the current"
+          },
+          {
+            "optionId": "C",
+            "optionDesc": "To decrease the voltage momentarily"
+          },
+          {
+            "optionId": "D",
+            "optionDesc": "To increase the voltage momentarily"
+          }
+        ]
+      },
+      {
+        "questionId": 129,
+        "questionDesc": "It is easier to roll a stone up a sloping road than to lift it vertical upwards because",
+        "options": [
+          {
+            "optionId": "A",
+            "optionDesc": "work done in rolling is more than in lifting"
+          },
+          {
+            "optionId": "B",
+            "optionDesc": "work done in lifting the stone is equal to rolling it"
+          },
+          {
+            "optionId": "C",
+            "optionDesc": "work done in both is same but the rate of doing work is less in rolling"
+          },
+          {
+            "optionId": "D",
+            "optionDesc": "work done in rolling a stone is less than in lifting it"
+          }
+        ]
+      },
+      {
+        "questionId": 130,
+        "questionDesc": "Light travels at the fastest speed in",
+        "options": [
+          {
+            "optionId": "A",
+            "optionDesc": "glass"
+          },
+          {
+            "optionId": "B",
+            "optionDesc": "water"
+          },
+          {
+            "optionId": "C",
+            "optionDesc": "hydrogen"
+          },
+          {
+            "optionId": "D",
+            "optionDesc": "vacuum"
+          }
+        ]
+      },
+      {
+        "questionId": 131,
+        "questionDesc": "Which of the following is not associated with the UNO?",
+        "options": [
+          {
+            "optionId": "A",
+            "optionDesc": "ILO"
+          },
+          {
+            "optionId": "B",
+            "optionDesc": "WHO"
+          },
+          {
+            "optionId": "C",
+            "optionDesc": "ASEAN"
+          },
+          {
+            "optionId": "D",
+            "optionDesc": "All of the above"
+          }
+        ]
+      },
+      {
+        "questionId": 132,
+        "questionDesc": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+        "options": [
+          {
+            "optionId": "A",
+            "optionDesc": "(1/3)"
+          },
+          {
+            "optionId": "B",
+            "optionDesc": "(1/8)"
+          },
+          {
+            "optionId": "C",
+            "optionDesc": "(2/8)"
+          },
+          {
+            "optionId": "D",
+            "optionDesc": "(1/16)"
+          }
+        ]
+      }
+    ]
+  }

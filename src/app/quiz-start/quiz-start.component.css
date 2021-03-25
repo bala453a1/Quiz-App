@@ -1,0 +1,13 @@
+.quizStartDiv{
+    text-align: center;
+}
+.startMainContainer{
+    padding: 10% 0%;
+}
+.startText{
+    padding-bottom: 10%;
+    font-size: 18px;
+}
+.startBtn{
+    padding: 0px 65px !important;
+}

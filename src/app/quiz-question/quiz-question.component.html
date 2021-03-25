@@ -1,0 +1,21 @@
+<div class="container">
+    <mat-card *ngIf="question">
+        <mat-card-header>
+            <mat-card-title appBlockCopyPaste>{{counter}}) {{question.questionDesc}}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content class="options">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-6" *ngFor="let option  of question.options let i = index">
+                        <div class="form-check">
+                            <input class="form-check-input" (click)="getSelectedOption($event)" id="optionChecked{{i}}" type="radio" name="flexRadioDefault" value="{{option.optionDesc}}">
+                            <label class="form-check-label" for="optionChecked{{i}}">
+                                {{option.optionDesc}}
+                            </label>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </mat-card-content>
+    </mat-card>
+</div>

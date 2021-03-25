@@ -1,0 +1,10 @@
+.signOutContainer{
+    padding: 7px;
+    float: right;
+}
+.navbar-header{
+    display: inline-block;
+}
+.signOutBtn{
+    border-radius: 20px;
+}

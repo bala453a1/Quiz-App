@@ -1,0 +1,18 @@
+<div>
+    <button mat-raised-button color="warn" style="float:right">Quit</button>
+</div>
+<div>
+    <div>
+        <p>Time Left</p>
+        <p>{{timeLeft | number: '2.0'}} Seconds Left</p>
+    </div>
+    <div>
+        <p>Questions {{questionNumber}} of {{questionLength}}</p>
+    </div>
+</div>
+<app-quiz-question [quizData]="currentQuestion"></app-quiz-question>
+
+<div class="container">
+    <div class="d-grid gap-2 col-3 mx-auto nextQuestion">
+        <button class="btn btn-primary" (click)='nextQuestion($event)'>Next Question</button>
+</div>

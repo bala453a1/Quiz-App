@@ -1,0 +1,10 @@
+<nav [ngClass]="'navbar navbar-default'">
+    <div [ngClass]="'container-fluid'">
+      <div [ngClass]="'navbar-header'">
+        <a [ngClass]="'navbar-brand'" href="#">{{appName}}</a>
+      </div>
+      <div [ngClass]="'signOutContainer'">
+        <button mat-raised-button [ngClass]="'signOutBtn'" routerLink="" (click)="appService.showSuccess('You have been logged out successfully.')">Sign Out</button>
+      </div>
+    </div>
+  </nav>
